@@ -830,9 +830,10 @@ color:#8e8f99;
     fill: transparent;
 }
 
-.modal-checkbox-input:checked+ .modal-checkbox-text-icon{
+.modal-checkbox-input:checked + .modal-checkbox-text>.modal-checkbox-text-icon {
 background-color:#404bbf;
 border: none;
+fill: #F4F4FD;;
 }
 
 .modal-check-link {
