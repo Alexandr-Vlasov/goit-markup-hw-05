@@ -742,7 +742,7 @@ margin-bottom: 8px;
     border-color: #4D5AE5;
 }
 
-.modal-input:focus .modal-icons{
+.modal-input:focus+ .modal-icons{
     fill: #4D5AE5;
 }
 .modal-label {
@@ -830,7 +830,7 @@ color:#8e8f99;
     fill: transparent;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-text-icon{
+.modal-checkbox-input:checked+ .modal-checkbox-text-icon{
 background-color:#404bbf;
 border: none;
 }
