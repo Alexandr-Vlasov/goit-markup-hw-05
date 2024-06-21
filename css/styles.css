@@ -830,7 +830,7 @@ color:#8e8f99;
     fill: transparent;
 }
 
-.modal-checkbox-input:checked modal-checkbox-text-icon{
+.modal-checkbox-input:checked {
 background-color:#404bbf;
 border: none;
 }
