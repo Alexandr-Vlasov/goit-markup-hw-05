@@ -46,6 +46,8 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header-navigation {
@@ -166,16 +168,16 @@ margin: 0 auto;
    }
 
 .hero-title {
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #FFFFFF;
-        max-width: 496px;
-        margin-bottom: 48px;
-        margin-left: auto;
-        margin-right: auto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 .hero-btn {
@@ -211,6 +213,8 @@ margin: 0 auto;
 
 .features {
     padding: 120px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -274,6 +278,8 @@ margin: 0 auto;
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .team-title {
@@ -389,6 +395,8 @@ margin: 0 auto;
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .portfolio-title {
@@ -485,6 +493,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .footer-content {
@@ -600,7 +610,7 @@ color: #f4f4fd;
 }
 
 .footer-form-email::placeholder {
-.color: #ffffff;
+    color: #ffffff;
 }
 
 .footer-sub-btn {
@@ -621,15 +631,15 @@ color: #f4f4fd;
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
-        margin: 0 auto;
+    margin: 0 auto;
     padding: 16px 32px;
     display: flex;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-icon-send {
-margin-left: 16px;
-fill: #FFFFFF;
+    margin-left: 16px;
+    fill: #FFFFFF;
 }
 /*------------------------------- */
 
@@ -644,8 +654,6 @@ fill: #FFFFFF;
     left: 0;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /*align-items: center;
-    justify-content: center;*/
 }
 
 .modal {
@@ -702,7 +710,7 @@ fill: #FFFFFF;
 .modal-field-wrap {
 /*position: relative;
 padding: 72px 24px 24px 24px;*/
-margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .modal-icons {
@@ -778,26 +786,26 @@ margin-bottom: 8px;
 textarea {
     resize: none;
     border-radius: 4px;
-        Border: 1px solid #8E8F99;
-        margin: 0 24px 16px 0;
-        width: 360px;
-            height: 120px;
+    Border: 1px solid #8E8F99;
+    margin: 0 24px 16px 0;
+    width: 360px;
+    height: 120px;
 }
 
 .modal-comment {
-width: 100%;
-height: 120px;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: rgba(46, 47, 66, 0.4);
-border: 1px solid rgba(46, 47, 66, 0.4);
-border-radius: 4px;
-background-color: transparent;
-padding: 8px 16px;
-outline: transparent;
-resize: none;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-comment:focus {
@@ -813,10 +821,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox-text{
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color:#8e8f99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
 }
 
 .modal-checkbox-text-icon {
@@ -833,13 +841,13 @@ color:#8e8f99;
 }
 
 .modal-checkbox-input:checked + .modal-checkbox-text>.modal-checkbox-text-icon {
-background-color:#404bbf;
-border: none;
-fill: #F4F4FD;;
+    background-color:#404bbf;
+    border: none;
+    fill: #F4F4FD;;
 }
 
 .modal-check-link {
-color: #4d5ae5;;
+    color: #4d5ae5;;
 }
 
 .modal-submit {
